@@ -1,0 +1,1255 @@
+{
+    "apiUrl": "",
+    "Credentials": {
+        "username": "entertainment",
+        "password": "entertainment"
+      },
+      "JWT_Token": "Kothi",
+    "Generes": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Science Fiction",
+        "Comedy",
+        "Drama",
+        "Thriller",
+        "Crime",
+        "Romance",
+        "Animation",
+        "Family",
+        "Music",
+        "Documentary",
+        "",
+        "Horror",
+        "Western",
+        "Mystery",
+        "History",
+        "TV Movie"
+    ],
+    "GenresN": [
+        { "id": 1, "name": "Action" },
+        { "id": 2, "name": "Adventure" },
+        { "id": 3, "name": "Animation" },
+        { "id": 4, "name": "Comedy" },
+        { "id": 5, "name": "Crime" },
+        { "id": 6, "name": "Documentary" },
+        { "id": 7, "name": "Drama" },
+        { "id": 8, "name": "Family" },
+        { "id": 9, "name": "Fantasy" },
+        { "id": 10, "name": "History" },
+        { "id": 11, "name": "Horror" },
+        { "id": 12, "name": "Music" },
+        { "id": 13, "name": "Mystery" },
+        { "id": 14, "name": "Romance" },
+        { "id": 15, "name": "Science Fiction" },
+        { "id": 16, "name": "TV Movie" },
+        { "id": 17, "name": "Thriller" },
+        { "id": 18, "name": "War" },
+        { "id": 19, "name": "Western" },
+        { "id": 20, "name": "Biography" },
+        { "id": 21, "name": "Sport" },
+        { "id": 22, "name": "Musical" },
+        { "id": 23, "name": "Short" },
+        { "id": 24, "name": "Superhero" },
+        { "id": 25, "name": "Reality" }
+      ],
+
+      "AllMoviesDetails": {
+        "videos": [
+            {
+                "id": "30b642bd-7591-49f4-ac30-5c538f975b15",
+                "title": "Sehwag shares his batting experience in iB Cricket | iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-1-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "1.4K",
+                "published_at": "Apr 19, 2019"
+            },
+            {
+                "id": "606f5b7b-9208-4eb2-a68c-1eb5faef4268",
+                "title": "Yellow Strikers are Ready to Strike Big | Watch it on Viu | iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-2-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "2K",
+                "published_at": "Mar 14, 2019"
+            },
+            {
+                "id": "2fd4fa94-f8a1-4508-87e9-7cdd279c4a1f",
+                "title": "Blue Blasters are ready | iB Cricket Super Over League | watch it on Viu",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-3-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "2.1K",
+                "published_at": "Mar 14, 2019"
+            },
+            {
+                "id": "6114fac6-44ff-47f8-82df-3426715e0b56",
+                "title": "Sam Billings having fun with Virtual Reality Cricket",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-4-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "3.6K",
+                "published_at": "Jan 30, 2019"
+            },
+            {
+                "id": "51b73ec6-7cdb-4e6f-b290-868387ada97a",
+                "title": "Stephen Fleming takes on Morne Morkel in VR Cricket",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-5-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "3.2K",
+                "published_at": "Jan 23, 2019"
+            },
+            {
+                "id": "420f102e-1734-4468-8d3c-797134c505b0",
+                "title": "Best of Virender Sehwag in iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-6-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "2.3K",
+                "published_at": "Jun 27, 2019"
+            },
+            {
+                "id": "f1c2182d-568c-47de-89ff-fd612f0bd99d",
+                "title": "Best of Suresh Raina in iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-7-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "2.9K",
+                "published_at": "Jun 27, 2019"
+            },
+            {
+                "id": "72274854-be1c-4ffd-9788-1e5d3c2d600c",
+                "title": "Best of VVS Laxman in iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-8-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "1K",
+                "published_at": "Jun 27, 2019"
+            },
+            {
+                "id": "10dcb8df-11b3-4f70-9690-4a8929b89816",
+                "title": "Best of Prithvi Shaw in iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-9-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "1.1K",
+                "published_at": "Jun 27, 2019"
+            },
+            {
+                "id": "66b857d7-9c62-496e-8404-88a6a1ccc295",
+                "title": "Best of Mohammad Kaif in iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-10-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "45K",
+                "published_at": "Jun 27, 2019"
+            },
+            {
+                "id": "c965db6b-5e7f-4541-8412-e4e7e7912399",
+                "title": "Best of Brendon McCullum in iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-11-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "1.6K",
+                "published_at": "Jun 27, 2019"
+            },
+            {
+                "id": "7650d552-1d4a-40e4-bcf8-1c13d78b38c1",
+                "title": "Best of Andre Russell in iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-12-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "1.4K",
+                "published_at": "Jun 27, 2019"
+            },
+            {
+                "id": "7f280933-f36b-4d2f-8f4f-b31b089c8f78",
+                "title": "Best of Chris Lynn in iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-13-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "675",
+                "published_at": "Jun 27, 2019"
+            },
+            {
+                "id": "268f94b2-ed0c-4f49-a743-0de35d1f2294",
+                "title": "iB Cricket winning hearts across the world | Virtual Reality Cricket",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-14-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "5.4K",
+                "published_at": "Jun 1, 2019"
+            },
+            {
+                "id": "2c79fe02-67b8-45f7-b835-aa4971f5c4df",
+                "title": "iB Cricket | The World's Most Immersive Virtual Reality Cricket",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-15-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "8.6K",
+                "published_at": "Jan 31, 2019"
+            },
+            {
+                "id": "2ebc17f9-fba5-4b24-9f5e-7e12137bb902",
+                "title": "Fans playing with Rajasthan Royals stars | RR - iB Cricket Fan Tour | Rahane, Unadkat, Smith, Butler",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-3-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "2.5K",
+                "published_at": "May 27, 2019"
+            },
+            {
+                "id": "a25b246c-5b18-44dc-a832-6007c06397af",
+                "title": "iB Cricket - A New Format of Cricket in Virtual Reality",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-vsport-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "21K",
+                "published_at": "Feb 27, 2018"
+            },
+            {
+                "id": "9a4d9c25-34af-44c8-898e-6bc4ba6c24a4",
+                "title": "Fans playing cricket with CSK Stars | CSK - iB Cricket Fan Tour | MS Dhoni, Raina, Jadeja, Watson",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-2-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "6.2K",
+                "published_at": "May 11, 2019"
+            },
+            {
+                "id": "a294b662-2ae5-408d-93b1-7c8dbe4412fb",
+                "title": "A ROYAL evening for RR stars with iB Cricket | Ajinkya Rahane, Sanju Samson, Jaydev Unadkat.",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-1-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "3.9K",
+                "published_at": "May 9, 2019"
+            },
+            {
+                "id": "5d7c6c4d-6ab2-48f4-af2d-5c6846180cc7",
+                "title": "Mohammad Kaif and Brendon McCullum on fielding in iB Cricket | iB Cricket Super Over League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-16-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "1.9K",
+                "published_at": "Apr 19, 2019"
+            },
+            {
+                "id": "1f44125f-eeb0-40a7-a2bf-3c8f64e5a17a",
+                "title": "iB Cricket Super Over League Official Announcement | World’s First Virtual Reality Cricket League",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-1-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "30K",
+                "published_at": "Feb 21, 2019"
+            },
+            {
+                "id": "8d308548-9496-448a-b10f-70b173f87e68",
+                "title": "Play 360 degrees in iB Cricket - World's Most Immersive VR Cricket",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-2-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "231",
+                "published_at": "Aug 2, 2021"
+            },
+            {
+                "id": "e2df788b-ae68-465c-8a3c-b5701d3f9c5b",
+                "title": "Announcing iB Cricket Home Edition",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-1-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "287",
+                "published_at": "Jul 27, 2021"
+            },
+            {
+                "id": "beb03ef7-d8dc-4654-bf3f-fbbcc8523966",
+                "title": "iB Cricket - World's most immersive VR Cricket",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-vsport-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "427",
+                "published_at": "Jul 24, 2021"
+            },
+            {
+                "id": "716142b5-fc5c-4a10-b29d-cb746258161c",
+                "title": "iB Cricket Gameplay!! Numerous bowling styles, realistic animations, massive shots & more..",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-17-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "701",
+                "published_at": "Apr 16, 2021"
+            },
+            {
+                "id": "1cc3a158-6751-4a39-ae6f-c63a72108f12",
+                "title": "Me, Dad & Cricket || Happy Father's Day 2020",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-1-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "1.4K",
+                "published_at": "Jun 21, 2020"
+            },
+            {
+                "id": "e5cb5fc4-102a-4a8a-a8d7-f19a5b11fa7b",
+                "title": "Indian Moms and Cricket | Their Advice to Kids",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-mothersday-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "583",
+                "published_at": "May 10, 2020"
+            },
+            {
+                "id": "e1e964ef-e0d0-44ac-8797-28832ce64e23",
+                "title": "iB Cricket energizing corporate employees across the world",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-corporates-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "1.9K",
+                "published_at": "Mar 11, 2020"
+            },
+            {
+                "id": "616c16fe-b98a-4397-9a59-74cdd7b9bfb7",
+                "title": "iB Cricket - IPL Fan Tours mesmerized cricket fans across India | RCB, CSK, KKR, RR and DC",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-4-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "5.7K",
+                "published_at": "Jul 1, 2019"
+            },
+            {
+                "id": "82832be4-a4d0-4613-bf9a-3a0bb3bf7bab",
+                "title": "Fans playing with RCB stars in iB Cricket | RCB - iB Cricket Fan Tour | Virat Kohli, Ab De Villers",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-5-img.png",
+                "channel": {
+                    "name": "iB Cricket",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+                },
+                "view_count": "3.4K",
+                "published_at": "Jun 1, 2019"
+            },
+            {
+                "id": "ad9822d2-5763-41d9-adaf-baf9da3fd490",
+                "title": "iB Hubs Announcement Event",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "26K",
+                "published_at": "Nov 29, 2016"
+            },
+            {
+                "id": "89383330-f76c-4ca4-b13b-9b3e9bf8a808",
+                "title": "A welcoming interaction with Hyderabad startup community : iB Hubs",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-startup-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "9.6K",
+                "published_at": "Sep 22, 2016"
+            },
+            {
+                "id": "f3da2507-4ff5-41d0-b6d7-e796df01de25",
+                "title": "iB Group Vision | Transforming India - From a Land of Potential to a Land of Opportunity",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-thumbnail-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "13.5K",
+                "published_at": "Jan 22, 2018"
+            },
+            {
+                "id": "8329b21b-44f2-4229-b4b0-4b7311513526",
+                "title": "Social Entrepreneurship - A Practitioner's view Satish Burra",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-talk-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "2.4K",
+                "published_at": "Nov 3, 2016"
+            },
+            {
+                "id": "8884c12a-96f7-4f64-843d-d3ecde8eeb4f",
+                "title": "iB Hubs IoT Bootcamp | End-to-End training in IoT with AR/VR - Blockchain - Security integrations",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-iot-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "8.9K",
+                "published_at": "Jul 30, 2017"
+            },
+            {
+                "id": "f3dc2b15-7c71-4ddb-94f1-3f2c86f9751f",
+                "title": "iB Hubs Super 30 Aftermovie | Honouring Teachers Across India | Teachers Day",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-super-30-1-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "6.9K",
+                "published_at": "Sep 5, 2020"
+            },
+            {
+                "id": "4b42d8a0-5a9d-499e-bfca-f8a68f6d3bf6",
+                "title": "iB Hubs Super 30 - Grand Felicitation - Mr. Nurul Islam",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-super-30-islam-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "15.7K",
+                "published_at": "Oct 25, 2019"
+            },
+            {
+                "id": "ea0a9be4-d94a-41db-82bf-044d8915d6cf",
+                "title": "Innovation drives India into future - says Shri Amitabh Kant",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-talks-2-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "2.4K",
+                "published_at": "Nov 16, 201"
+            },
+            {
+                "id": "018f8cbf-ecc6-403b-96c5-b15736328818",
+                "title": "iB Hubs Startup School - Student Acceleration Program | Future Begins Here | 2021 Edition",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-student-startup-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "2.8K",
+                "published_at": "Apr 7, 2021"
+            },
+            {
+                "id": "d54bee30-49a5-424f-aebe-7719500a5698",
+                "title": "iB Hubs Super 30 | Honouring the teachers who shape the generations",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-super-30-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "8.4K",
+                "published_at": "Jul 23, 2019"
+            },
+            {
+                "id": "e426dbb7-cf95-42cb-aca8-9f4d3194b256",
+                "title": "iB Hubs IoT Bootcamp 2018",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-bootcamp-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "1.5K",
+                "published_at": "Dec 31, 2018"
+            },
+            {
+                "id": "c049fa98-d91b-43d5-84d6-f57af0b5de6c",
+                "title": "Journey of a Social Entrepreneur - Talk by Ms. Mukti K Bosco",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-img.png",
+                "channel": {
+                    "name": "iB Hubs",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+                },
+                "view_count": "823",
+                "published_at": "Nov 1, 2016"
+            },
+            {
+                "id": "6fcf2fe2-8cb8-4693-9ee8-45e09f9d2b30",
+                "title": "5 Things you need to know to get high-paying jobs | CCBP 4.0 | NxtWave",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-motivation-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "6.5K",
+                "published_at": "May 22, 2021"
+            },
+            {
+                "id": "80ef9ba0-61ef-4e65-9f3c-506bfda7e74e",
+                "title": "For the 1st time in my village, a girl graduated and got an IT job | Shobha | NxtWave CCBP Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-1-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "1K",
+                "published_at": "Aug 2, 2021"
+            },
+            {
+                "id": "a7b783bd-73d8-4b21-bc41-9a00ba015f3d",
+                "title": "Fortunate to learn about 4.0 technologies in my B.Tech 1st year | Student Community | NxtWave Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-2-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "21K",
+                "published_at": "Jul 17, 2021"
+            },
+            {
+                "id": "b5f11f30-0b42-4b20-b228-40b611fa463e",
+                "title": "[Telugu] A Parent's heartfelt review of the NxtWave CCBP Program",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-3-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "2.4K",
+                "published_at": "Jul 31, 2021"
+            },
+            {
+                "id": "fce38366-577c-42a2-9886-312d38e2bd56",
+                "title": "6 Year Career Gap to a Software Engineer | NxtWave - CCBP | Bhavya Success Story",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-4-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "1.8K",
+                "published_at": "Aug 12, 2021"
+            },
+            {
+                "id": "9d784e89-4d4f-465c-a933-1d03f3a112cb",
+                "title": "From Civil Engineer to Full Stack Developer in 4 months | NxtWave & CCBP 4.0 | Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-5-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "10.2K",
+                "published_at": "Apr 19, 2021"
+            },
+            {
+                "id": "79ddf1f3-65ce-4464-be83-775a8f6a0e5f",
+                "title": "From a struggling coder to a high-paid tech job | NxtWave - CCBP 4.0 | Success - Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-6-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "5K",
+                "published_at": "May 24, 2021"
+            },
+            {
+                "id": "d1d89ac3-9652-450a-ad6c-2eed76a894d4",
+                "title": "[Telugu] I recommend every parent to provide CCBP to their Children | NxtWave Parents Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-7-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "6K",
+                "published_at": "Aug 6, 2021"
+            },
+            {
+                "id": "336ef790-5a13-4a43-b7d8-b24866fa9c9d",
+                "title": "[Telugu] An ECE graduate to an Associate Software Engineer | NxtWave - CCBP 4.0 | Success - Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-8-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "3.5K",
+                "published_at": "Jun 24, 2021"
+            },
+            {
+                "id": "4c9d11ec-5d49-4a8e-be31-a40955074b7b",
+                "title": "Bootcamp gave me deeper insights on emerging technologies | NxtWave - Student Community | Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-9-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "910",
+                "published_at": "Jul 12, 2021"
+            },
+            {
+                "id": "85afde7d-a685-4a5f-ad2f-c3fc516b2e42",
+                "title": "Bootcamp gave me 360 degrees knowledge on IoT | NxtWave - Student Community | Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-10-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "597",
+                "published_at": "Jul 5, 2021"
+            },
+            {
+                "id": "c3f9625a-9c01-408d-b6c4-57117d62ee35",
+                "title": "Bootcamp boosted my knowledge in AI/ML & Cybersecurity | NxtWave - Student Community | Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-11-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "9K",
+                "published_at": "Jul 4, 2021"
+            },
+            {
+                "id": "a9bdf0ed-05e4-407e-b2bb-8a29d4c36ac8",
+                "title": "[Telugu] Overcame fears with mock interviews and cleared my job interview| NxtWave| Yashwanth Review",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-12-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "4.5K",
+                "published_at": "Sep 1, 2021"
+            },
+            {
+                "id": "0f6e0294-0cb4-47ec-bba5-981fd9fff86e",
+                "title": "[Telugu]Coding practices & cheat-sheets made me competent for projects | CCBP 4.0 Review |Sudharshan",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-13-img.png",
+                "channel": {
+                    "name": "NxtWave",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+                },
+                "view_count": "2K",
+                "published_at": "Sep 2, 2021"
+            },
+            {
+                "id": "00780a5b-0b73-4cbe-91c6-91371fd8f078",
+                "title": "The Things Conference India 2018 | After Movie",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-img.png",
+                "channel": {
+                    "name": "CyberEye",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/cyber-eye-img.png"
+                },
+                "view_count": "75K",
+                "published_at": "Apr 23, 2020"
+            },
+            {
+                "id": "330f1c47-2608-452a-ad65-e0d9b159d00c",
+                "title": "The Things Conference India 2019 | After Movie",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-2-img.png",
+                "channel": {
+                    "name": "CyberEye",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/cyber-eye-img.png"
+                },
+                "view_count": "23K",
+                "published_at": "Apr 23, 2020"
+            },
+            {
+                "id": "9420a07a-df83-419e-a46e-ed308103e829",
+                "title": "Avinash Dara, CyberEye | Smart Campus - A Deployment Perspective | The Things Virtual Conference",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-cyber-eye-img.png",
+                "channel": {
+                    "name": "CyberEye",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/cyber-eye-img.png"
+                },
+                "view_count": "23K",
+                "published_at": "Apr 23, 2020"
+            },
+            {
+                "id": "f163fd54-0f08-4cc1-a5aa-308f27132cc6",
+                "title": "The Things Conference India 2019 After Movie",
+                "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-2-img.png",
+                "channel": {
+                    "name": "The Things Network",
+                    "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/the-things-network-img.png"
+                },
+                "view_count": "2.6K",
+                "published_at": "Oct 23, 2019"
+            }
+        ],
+        "total": 60
+    },
+    
+    "MoviesList": [
+        {
+            "id": "tt1630029",
+            "title": "Avatar 2",
+            "releaseDate": "2020-12-16",
+            "poster": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_SX300.jpg",
+            "rating": "10",
+            "overview": "A sequel to Avatar (2009).",
+            "genre": "Action,Adventure,Fantasy,Science Fiction",
+            "productionCompanies": "Twentieth Century Fox Film Corporation,Lightstorm Entertainment,River Road Entertainment,TSG Entertainment"
+        },
+        {
+            "id": "tt0069049",
+            "title": "The Other Side of the Wind",
+            "releaseDate": "2018-12-31",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDg5NTQ0NDU1Nl5BMl5BanBnXkFtZTgwMTExNzIyNjM@._V1_SX300.jpg",
+            "rating": "10",
+            "overview": "Orson Welles' unfinished masterpiece, restored and assembled based on Welles' own notes. During the last 15 years of his life, Welles, who died in 1985, worked obsessively on the film, which chronicles a temperamental film director—much like him—who is battling with the Hollywood establishment to finish an iconoclastic work.",
+            "genre": "Comedy,Drama",
+            "productionCompanies": "Les Films de Astrophore,SACI"
+        },
+        {
+            "id": "tt1502397",
+            "title": "Bad Boys for Life",
+            "releaseDate": "2018-11-07",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+            "rating": "6.5",
+            "overview": "The continuing adventures of Miami detectives Mike Lowrey and Marcus Burnett. Plot unknown.",
+            "genre": "Thriller,Action,Crime",
+            "productionCompanies": "Columbia Pictures,Sony Pictures,Jerry Bruckheimer Films,Platinum Dunes"
+        },
+        {
+            "id": "tt3906082",
+            "title": "Mary Shelley",
+            "releaseDate": "2018-04-25",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzUyM2EzOTEtOTMwMi00NzMwLWEyYTAtZGYxYzMyZDgyNGUyXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_SX300.jpg",
+            "rating": "6.4",
+            "overview": "The love affair between poet Percy Shelley and 18 years old Mary Wollstonecraft, which resulted in Mary Shelley writing Frankenstein.",
+            "genre": "Drama,Romance",
+            "productionCompanies": "Parallel Films,Bord Scannan na hEireann / Irish Film Board,Gidden Media,Juliette Films"
+        },
+        {
+            "id": "tt5613402",
+            "title": "Mobile Homes",
+            "releaseDate": "2018-04-04",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTc3OTgwNzQ1NF5BMl5BanBnXkFtZTgwMDY3MjA1NjM@._V1_SX300.jpg",
+            "rating": "6",
+            "overview": "In forgotten towns along the American border, a young mother drifts from one motel to the next with her intoxicating boyfriend and her 8-year-old son. The makeshift family scrapes by, living one hustle at a time, until the discovery of a mobile home community offers an alternative life.",
+            "genre": "Drama",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt3038708",
+            "title": "Iron Sky: The Coming Race",
+            "releaseDate": "2018-03-01",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZDVhNDQxYzktMjUyMS00Njk0LWJjMDAtZWM3M2ZkZGI1M2Q2XkEyXkFqcGdeQXVyOTc0NjcxNzM@._V1_SX300.jpg",
+            "rating": "5",
+            "overview": "Twenty years after the events of Iron Sky, the former Nazi Moonbase has become the last refuge of mankind. Earth was devastated by a nuclear war, but buried deep under the wasteland lies a power that could save the last of humanity - or destroy it once and for all. The truth behind the creation of mankind will be revealed when an old enemy leads our heroes on an adventure into the Hollow Earth. To save humanity they must fight the Vril, an ancient shapeshifting reptilian race and their army of dinosaurs.",
+            "genre": "Action,Comedy,Fantasy,Science Fiction",
+            "productionCompanies": "27 Films Production,Potemkino,Iron sky universe"
+        },
+        {
+            "id": "tt3498786",
+            "title": "Sly Cooper",
+            "releaseDate": "2017-12-31",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNmEwNjJmMGEtZjE0OC00ZjBhLTg5MzItNjMwZmIyZTY2ZjlmXkEyXkFqcGdeQXVyMzY3MzcyNTE@._V1_SX300.jpg",
+            "rating": "10",
+            "overview": "Sly Cooper is a kinetic and comedic heist film that tells the story of Sly Cooper, an orphaned raccoon thief, along with his childhood friends and partners in crime, Bentley Turtle and Murray Hippo. In the film, Sly learns of his birth family's secret legacy; that he comes from a long line of talented and international thieves. Endowed with this knowledge, Sly and his friends are catapulted into a global adventure as they race to reassemble pieces of an ancient book holding The Cooper Clan's family secrets before it can fall into the hands of Clockwerk -- an evil Russian metallic owl bent on ending the Cooper family line. From romantic Parisian backdrops to the lush mountains of China, gritty film noir meets bright, colorful graphic novels in this origin story of the world's greatest thief-turned-hero.",
+            "genre": "Animation,Adventure,Comedy,Action,Family",
+            "productionCompanies": "Rainmaker Entertainment,Cinema Management Group,Blockade Entertainment,Sony Computer Entertainment"
+        },
+        {
+            "id": "tt2328678",
+            "title": "The King's Daughter",
+            "releaseDate": "2017-12-30",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMmMyYzA2NTctMmQ0Mi00N2Y3LTljODktZDc5N2M1NWM5NGQ2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
+            "rating": "5.2",
+            "overview": "King Louis XIV's quest for immortality leads him to capture and steal a mermaid's life force, a move that is further complicated by his illegitimate daughter's discovery of the creature.",
+            "genre": "Fantasy,Action,Adventure",
+            "productionCompanies": "Paramount Pictures,Good Universe"
+        },
+        {
+            "id": "tt3859310",
+            "title": "How to Talk to Girls at Parties",
+            "releaseDate": "2017-12-27",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMWZkYTllMjctM2E0ZS00NTNjLWE2YjQtODY4YWZjMDJiODVhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg",
+            "rating": "5.7",
+            "overview": "A couple of British 1970s teen-aged boys, Enn and Vic, go to a party to meet girls, only to find that the girls are very different from the boys' expectations.",
+            "genre": "Comedy,Music,Romance,Science Fiction",
+            "productionCompanies": "HanWay Films,See-Saw Films,Little Punk"
+        },
+        {
+            "id": "tt4765284",
+            "title": "Pitch Perfect 3",
+            "releaseDate": "2017-12-21",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTU5NDI1MjkwMF5BMl5BanBnXkFtZTgwNjIxNTY2MzI@._V1_SX300.jpg",
+            "rating": "5.8",
+            "overview": "Sequel to Pitch Perfect 2",
+            "genre": "Comedy",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt5690244",
+            "title": "Machines",
+            "releaseDate": "2017-11-30",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjI3NjE1NzgwNl5BMl5BanBnXkFtZTgwNjY2NzE5MDI@._V1_SX300.jpg",
+            "rating": "7.3",
+            "overview": "This portrayal of the rhythm of life and work in a gigantic textile factory in Gujarat, India, moves through the corridors and bowels of the enormously disorienting structure—taking the viewer on a journey of dehumanizing physical labor and intense hardship.",
+            "genre": "Documentary",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt2582498",
+            "title": "Sweet Virginia",
+            "releaseDate": "2017-11-17",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjM4ZDNiMGYtY2ViZi00NWNjLWJlMTAtZjg2YjFmMjE4MDA4XkEyXkFqcGc@._V1_SX300.jpg",
+            "rating": "6.2",
+            "overview": "A former rodeo champ befriends a young man with a propensity for violence.",
+            "genre": "",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt0974015",
+            "title": "Justice League",
+            "releaseDate": "2017-11-15",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjM5YmQxM2YtZjI2Yy00YjhhLTg5N2MtMTEyMzdlZDU3OTVhXkEyXkFqcGc@._V1_SX300.jpg",
+            "rating": "6.1",
+            "overview": "Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne and Diana Prince assemble a team of metahumans consisting of Barry Allen, Arthur Curry, and Victor Stone to face the catastrophic threat of Steppenwolf and the Parademons who are on the hunt for three Mother Boxes on Earth.",
+            "genre": "Action,Adventure,Fantasy,Science Fiction",
+            "productionCompanies": "DC Comics,Kennedy Miller Productions,Lin Pictures,Warner Bros.,DC Entertainment,RatPac-Dune Entertainment,Cruel and Unusual Films"
+        },
+        {
+            "id": "tt4372240",
+            "title": "78/52",
+            "releaseDate": "2017-11-03",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTg2NjMzMDAxMl5BMl5BanBnXkFtZTgwMDkxOTY0MzI@._V1_SX300.jpg",
+            "rating": "7.3",
+            "overview": "78 shots. 52 cuts. The shower scene from PSYCHO.",
+            "genre": "Documentary",
+            "productionCompanies": "Exhibit A Pictures"
+        },
+        {
+            "id": "tt5726616",
+            "title": "Call Me by Your Name",
+            "releaseDate": "2017-10-27",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDk3NTEwNjc0MV5BMl5BanBnXkFtZTgwNzYxNTMwMzI@._V1_SX300.jpg",
+            "rating": "7.8",
+            "overview": "Elio Perlman is spending the summer with his family at their vacation home in Lombardy, Italy. When his father hires a handsome doctoral student, the curious 17-year-old finds himself developing a growing attraction to the young man.",
+            "genre": "Romance,Drama",
+            "productionCompanies": "Sony Pictures Classics,La Cinéfacture,Ministero per i Beni e le Attività Culturali (MiBAC),RT Features,Frenesy Film Company,Water End Productions,M.Y.R.A. Entertainment"
+        },
+        {
+            "id": "tt3501632",
+            "title": "Thor: Ragnarok",
+            "releaseDate": "2017-10-25",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SX300.jpg",
+            "rating": "7.9",
+            "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
+            "genre": "Action,Adventure,Fantasy,Science Fiction",
+            "productionCompanies": "Walt Disney Pictures,Marvel Studios"
+        },
+        {
+            "id": "tt1724970",
+            "title": "Beyond Skyline",
+            "releaseDate": "2017-10-20",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDBlMzY1MmMtMWUwMS00ODk5LWJiZDUtN2ZmZjJjYTRhMmNhXkEyXkFqcGdeQXVyMjU3NTI0Mg@@._V1_SX300.jpg",
+            "rating": "5.3",
+            "overview": "A tough-as-nails detective embarks on a relentless pursuit to free his son from a nightmarish alien warship.",
+            "genre": "Action,Science Fiction",
+            "productionCompanies": "Hydraulx,Infinite Frameworks Pte. Ltd.,Mirabelle Pictures,North Hollywood Films,Beyond The Mothership"
+        },
+        {
+            "id": "tt6333058",
+            "title": "Dina",
+            "releaseDate": "2017-10-20",
+            "poster": "https://m.media-amazon.com/images/M/MV5BN2NlZjY2MzctODI5YS00MzMxLWE0NTQtNTYzMzU1Mzc3YzUzXkEyXkFqcGc@._V1_SX300.jpg",
+            "rating": "6.7",
+            "overview": "Dina, an outspoken and eccentric 49-year-old in suburban Philadelphia, invites her fiancé Scott, a Walmart door greeter, to move in with her. Having grown up neurologically diverse in a world blind to the value of their experience, the two are head-over-heels for one another, but shacking up poses a new challenge. Scott freezes when it comes to physical intimacy, and Dina, a Kardashians fanatic, wants nothing more than to share with Scott all she’s learned about sensual desire from books, TV shows, and her previous marriage. Her increasingly creative forays to draw Scott close keep hitting roadblocks—exposing anxieties, insecurities, and communication snafus while they strive to reconcile their conflicting approaches to romance and intimacy.",
+            "genre": "Documentary",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt5816564",
+            "title": "Resurrecting Hassan",
+            "releaseDate": "2017-09-22",
+            "poster": "https://m.media-amazon.com/images/M/MV5BY2I4YTU3YjQtZjFhNS00Njk1LWE0MGItNzgwMDAzZGNkMDQyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjc2MTk3MTE@._V1_SX300.jpg",
+            "rating": "7.8",
+            "overview": "Traces the lives of the Hartings, a blind Montreal family of three who make their living singing in the city's subway stations. The Hartings lost their only sighted child Hassan in a tragic drowning accident, and have since turned to the teachings of Russian mystic Grigori Grabovoi, hoping to resurrect their son. Resurrecting Hassan is an exploration of this family's legacy of grief, tragedy and abuse; the film will follow them on their path to redemption.",
+            "genre": "Documentary",
+            "productionCompanies": "Handshake Productions"
+        },
+        {
+            "id": "tt2620590",
+            "title": "Leatherface",
+            "releaseDate": "2017-09-14",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjEyMDE1MzE1NF5BMl5BanBnXkFtZTgwMzcwNTU1MzI@._V1_SX300.jpg",
+            "rating": "5",
+            "overview": "A young nurse is kidnapped by a group of violent teens who escape from a mental hospital and take her on the road trip from hell. Pursued by an equally deranged lawman out for revenge, one of these teens is destined for tragedy and horrors that will destroy his mind, molding him into the monster we now call Leatherface.",
+            "genre": "Horror",
+            "productionCompanies": "Campbell Grobman Films,LF2 Productions"
+        },
+        {
+            "id": "tt4446472",
+            "title": "Porto",
+            "releaseDate": "2017-09-14",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzcyYjQ5MDgtZDU0NC00YjA4LWIxOTQtZDE1YTVmNzk3ZThlXkEyXkFqcGdeQXVyODM3MjA1NA@@._V1_SX300.jpg",
+            "rating": "6",
+            "overview": "Jake and Mati are two outsiders in the northerly Portuguese city of Porto who once experienced a brief connection. A mystery remains about the moments they shared, and in searching through memories, they relive the depths of a night uninhibited by the consequences of time.",
+            "genre": "Romance,Drama",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt5635086",
+            "title": "God's Own Country",
+            "releaseDate": "2017-09-01",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNjRhYzk2NDAtYzA1Mi00MmNmLWE1ZjQtMDBhZmUyMTdjZjBiXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg",
+            "rating": "7.6",
+            "overview": "A Yorkshire farmer develops a relationship with a Romanian migrant worker.",
+            "genre": "Romance,Drama",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt4536768",
+            "title": "Science Fiction Volume One: The Osiris Child",
+            "releaseDate": "2017-08-31",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzY3NGI5MTItZDg5OC00MTJjLTgyZTgtN2Q3ZTA3NzRlNmI3XkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SX300.jpg",
+            "rating": "5.5",
+            "overview": "Set in the future in a time of interplanetary colonization, an unlikely pair race against an impending global crisis and are confronted by the monsters that live inside us all.",
+            "genre": "Science Fiction",
+            "productionCompanies": "Storm Vision Entertainment,Eclectik Vision"
+        },
+        {
+            "id": "tt6193424",
+            "title": "The Trip to Spain",
+            "releaseDate": "2017-08-31",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZWY4ODYzMzYtN2I3Ny00NDkzLWFmNGQtZWVmZWNkYzU5ZjBkXkEyXkFqcGdeQXVyMzExMTY0MjU@._V1_SX300.jpg",
+            "rating": "6.6",
+            "overview": "Steve Coogan and Rob Brydon embark on a road trip along the coast of Spain.",
+            "genre": "Drama,Comedy",
+            "productionCompanies": "Revolution Films"
+        },
+        {
+            "id": "tt7158814",
+            "title": "LEGO DC Super Hero Girls: Brain Drain",
+            "releaseDate": "2017-08-30",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZjYwODBmMDMtZDhlMy00MmRhLWE3YmUtOGNmMWQwOWMyYzI4XkEyXkFqcGdeQXVyNTM0MDc1ODE@._V1_SX300.jpg",
+            "rating": "5.2",
+            "overview": "When Supergirl, Wonder Woman, Batgirl, Bumblebee and Katana suddenly realize they cannot remember a single moment from their Monday at Super Hero High, the young DC Super Heroes spring into sleuthing action! Suspecting foul-play, they band together to retrace their steps and uncover the mystery of who exactly stole their memories – and what nefarious plan might be afoot?",
+            "genre": "Animation",
+            "productionCompanies": "Warner Bros. Animation"
+        },
+        {
+            "id": "tt6288250",
+            "title": "Patti Cake$",
+            "releaseDate": "2017-08-18",
+            "poster": "https://m.media-amazon.com/images/M/MV5BOTZiNGIxNzgtMGUyMy00Y2IwLWI0Y2QtN2FhNWNhNjcyODM5XkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_SX300.jpg",
+            "rating": "6.8",
+            "overview": "Straight out of Jersey comes Patricia Dombrowski, a.k.a. Killa P, a.k.a. Patti Cake$, an aspiring rapper fighting through a world of strip malls and strip clubs on an unlikely quest for glory.",
+            "genre": "Drama",
+            "productionCompanies": "RT Features,Stay Gold Features,The Department of Motion Pictures"
+        },
+        {
+            "id": "tt1536537",
+            "title": "What Happened to Monday",
+            "releaseDate": "2017-08-18",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjE4MDQxMDg3MF5BMl5BanBnXkFtZTgwNjQ0MTcwMzI@._V1_SX300.jpg",
+            "rating": "6.8",
+            "overview": "In a world where families are limited to one child due to overpopulation, a set of identical septuplets must avoid being put to a long sleep by the government and dangerous infighting while investigating the disappearance of one of their own.",
+            "genre": "Science Fiction,Thriller",
+            "productionCompanies": "Vendome Pictures,Nexus Factory,Umedia,Snd Films,Raffaella Productions,Title Media"
+        },
+        {
+            "id": "tt5962210",
+            "title": "Ingrid Goes West",
+            "releaseDate": "2017-08-11",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzE3Mzc5NTc4M15BMl5BanBnXkFtZTgwMDYwNzM3MjI@._V1_SX300.jpg",
+            "rating": "6.6",
+            "overview": "Ingrid becomes obsessed with a social network star named Taylor Sloane who seemingly has a perfect life. But when Ingrid decides to drop everything and move west to be Taylor's friend, her behaviour turns unsettling and dangerous.",
+            "genre": "Drama,Comedy",
+            "productionCompanies": "Star Thrower Entertainment,141 Entertainment,Neon"
+        },
+        {
+            "id": "tt4846232",
+            "title": "Good Time",
+            "releaseDate": "2017-08-11",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZTYwOTJmYmItYjA3MS00MGYyLTg3YjgtNDljM2U5MzgwNjNmXkEyXkFqcGc@._V1_SX300.jpg",
+            "rating": "7.3",
+            "overview": "A bank robber tries to avoid the law closing in on him.",
+            "genre": "Drama,Thriller,Crime",
+            "productionCompanies": "Rhea Films,A24,Elara Pictures"
+        },
+        {
+            "id": "tt2378507",
+            "title": "The Glass Castle",
+            "releaseDate": "2017-08-10",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTY2Nzk0MDE3Nl5BMl5BanBnXkFtZTgwOTI0ODc0MjI@._V1_SX300.jpg",
+            "rating": "7.1",
+            "overview": "A young girl is raised in a dysfunctional family constantly on the run from the FBI. Living in poverty, she comes of age guided by her drunkard, ingenious father who distracts her with magical stories to keep her mind off the family's dire state, and her selfish, nonconformist mother who has no intention of raising a family, along with her younger brother and sister, and her other older sister. Together, they fend for each other as they mature in an unorthodox journey that is their family life.",
+            "genre": "Drama",
+            "productionCompanies": "Lionsgate,Netter Productions"
+        },
+        {
+            "id": "tt6794380",
+            "title": "A Gray State",
+            "releaseDate": "2017-08-07",
+            "poster": "https://m.media-amazon.com/images/M/MV5BYTljYjNkMTgtZTY4NS00NjhmLWIzMjMtNGI1MzUyMTgxZWM3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+            "rating": "6.2",
+            "overview": "In 2010 David Crowley, an Iraq veteran, aspiring filmmaker and charismatic up-and-coming voice in fringe politics, began production on his film Gray State. Set in a dystopian near-future where civil liberties are trampled by an unrestrained federal government, the film’s crowd funded trailer was enthusiastically received by the burgeoning online community of libertarians, Tea Party activists and members of the nascent alt-right. In January of 2015, Crowley was found dead with his family in their suburban Minnesota home. Their shocking deaths quickly become a cause célèbre for conspiracy theorists who speculate that Crowley was assassinated by a shadowy government concerned about a film and filmmaker that was getting too close to the truth about their aims.",
+            "genre": "Documentary",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt4460854",
+            "title": "Chronically Metropolitan",
+            "releaseDate": "2017-08-04",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTAxOTI5MjczMDdeQTJeQWpwZ15BbWU4MDAyNzYyMDgx._V1_SX300.jpg",
+            "rating": "5",
+            "overview": "A cynical and clever coming of age film about first time novelist Fenton Dillane, who, unannounced returns to New York City to confront his family, his ex- girlfriend and a few lingering childhood fears.",
+            "genre": "Drama,Comedy",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt1458169",
+            "title": "Kidnap",
+            "releaseDate": "2017-08-04",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTcyNDgyODEzOV5BMl5BanBnXkFtZTgwMTI4MTA2MjI@._V1_SX300.jpg",
+            "rating": "5.9",
+            "overview": "Single mother Karla McCoy lives a perfect life with her young son Frankie. One day, upon entering a local park, Karla sees her son suddenly being abducted out of the blue by a kidnapper. To save Frankie from being taken, Karla goes out on a mission to demand people in the city to help rescue her son.",
+            "genre": "Drama,Thriller",
+            "productionCompanies": "Ingenious Media,Di Bonaventura Pictures,Gold Star Films,Lotus Entertainment (I),606 Films,Well Go USA Entertainment,Rumble Entertainment"
+        },
+        {
+            "id": "tt5990474",
+            "title": "Columbus",
+            "releaseDate": "2017-08-04",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNWJiNzBlNjAtYjgwOC00YjZmLWI0YzItNTI1MzY4NmE4ZGI1XkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_SX300.jpg",
+            "rating": "7.2",
+            "overview": "A Korean-born man finds himself stuck in Columbus, Indiana, where his architect father is in a coma. The man meets a young woman who wants to stay in Columbus with her mother, a recovering addict, instead of pursuing her own dreams.",
+            "genre": "Drama",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt1724597",
+            "title": "London Town",
+            "releaseDate": "2017-08-03",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTc3NjU2MjYzOV5BMl5BanBnXkFtZTgwMTk4NzgwMDI@._V1_SX300.jpg",
+            "rating": "6.4",
+            "overview": "A 14-year old boy’s life changes forever when his estranged mother introduces him to the music of The Clash in 1979 London.",
+            "genre": "Drama,Music",
+            "productionCompanies": "Killer Films,Culmination Productions,dutch tilt film"
+        },
+        {
+            "id": "tt1648190",
+            "title": "The Dark Tower",
+            "releaseDate": "2017-08-03",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTU3MjUwMzQ3MF5BMl5BanBnXkFtZTgwMjcwNjkxMjI@._V1_SX300.jpg",
+            "rating": "5.6",
+            "overview": "The last Gunslinger, Roland Deschain, has been locked in an eternal battle with Walter O’Dim, also known as the Man in Black, determined to prevent him from toppling the Dark Tower, which holds the universe together. With the fate of the worlds at stake, good and evil will collide in the ultimate battle as only Roland can defend the Tower from the Man in Black.",
+            "genre": "Action,Western,Science Fiction,Fantasy,Horror",
+            "productionCompanies": "Imagine Entertainment,Weed Road Pictures,Media Rights Capital,Sony Pictures Entertainment"
+        },
+        {
+            "id": "tt5362988",
+            "title": "Wind River",
+            "releaseDate": "2017-08-03",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTUyMjU1OTUwM15BMl5BanBnXkFtZTgwMDg1NDQ2MjI@._V1_SX300.jpg",
+            "rating": "7.7",
+            "overview": "An FBI agent teams with the town's veteran game tracker to investigate a murder that occurred on a Native American reservation.",
+            "genre": "Action,Crime,Mystery,Thriller",
+            "productionCompanies": "Thunder Road Pictures,Star Thrower Entertainment,Acacia Filmed Entertainment"
+        },
+        {
+            "id": "tt5207262",
+            "title": "Hostages",
+            "releaseDate": "2017-08-02",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNTU3Njc1ZjEtMDU5ZC00ODIwLTk0NjItMzhlMzZmYWY1MWZhXkEyXkFqcGdeQXVyMTY3MjMxMjY@._V1_SX300.jpg",
+            "rating": "6.1",
+            "overview": "Movie describes real events that took place in 1983 when seven young Georgians, all from intellectual elite families, attampted to flee the Soviet Union by hijacking an airliner. The crisis ended with a storming of the airliner by Soviet special forces that resulted in eight dead. The surviving hijackers were subsequently tried and executed.",
+            "genre": "Drama",
+            "productionCompanies": "20 Steps Productions,Inkfilm"
+        },
+        {
+            "id": "tt6014472",
+            "title": "S.W.A.T.: Under Siege",
+            "releaseDate": "2017-08-01",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNjJmY2NjMjAtMTlmMy00MTYwLTlkZWQtNGE3NGRlY2EzNDQ2XkEyXkFqcGdeQXVyNTM3MzQ3NzE@._V1_SX300.jpg",
+            "rating": "4.6",
+            "overview": "When a D.E.A. and S.W.A.T. cartel takedown ends in a shootout, S.W.A.T. Agent Travis Hall seizes a mysterious prisoner taking him into custody. Before long, the S.W.A.T. compound is under siege by wave-after-wave of assault teams attempting to recover the prisoner known as “The Scorpion” for the tattoo blazed across his back. When Travis discovers that his prisoner is a Secret Ops double agent planted within the cartel, it’s up to him and his expert S.W.A.T. team to keep “The Scorpion” and his billion dollar secrets safe.",
+            "genre": "Action,Crime,Thriller",
+            "productionCompanies": "Original Film"
+        },
+        {
+            "id": "tt6212210",
+            "title": "Cop and a Half: New Recruit",
+            "releaseDate": "2017-08-01",
+            "poster": "https://m.media-amazon.com/images/M/MV5BYzlkZTY5MmItMzgzMS00ZmU1LTg5MmEtNGE1MjExMzFkYmM4XkEyXkFqcGdeQXVyMTQ2ODk1NQ@@._V1_SX300.jpg",
+            "rating": "5.3",
+            "overview": "In this family-friendly action reboot of the 1993 film, Karina Foley, an ambitious and spunky 12-year-old, inserts herself in a police investigation of the Badge Bandit, led by the grizzled, veteran detective Mark Simmons. Much to Simmons' disapproval, Karina partners up with him to stop the Badge Bandit from further wreaking havoc on the city. Through wit, skill, and green smoothies, Karina and Detective Simmons save the day and build a strong relationship in the process.",
+            "genre": "Crime,Comedy,Action,Family",
+            "productionCompanies": "Universal Pictures"
+        },
+        {
+            "id": "tt5815944",
+            "title": "Tokyo Ghoul",
+            "releaseDate": "2017-07-29",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMzM3ZTczNmYtYjAyOS00YTc4LWExNTQtNjdkZWRiM2VkODVlXkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_SX300.jpg",
+            "rating": "5.7",
+            "overview": "Ken Kaneki (Masataka Kubota) is a university student. He becomes injured by Rize, a human eating ghoul. Ken is saved from the ghoul when a steel frame falls on Rize. They are both sent to the hospital. Ken receives an organ transplant from Rize and becomes a half ghoul.",
+            "genre": "Action,Drama,Horror,Thriller",
+            "productionCompanies": "Shochiku"
+        },
+        {
+            "id": "tt6322922",
+            "title": "An Inconvenient Sequel: Truth to Power",
+            "releaseDate": "2017-07-28",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNTkzNTQ0MzA3Ml5BMl5BanBnXkFtZTgwNzg4OTcyMjI@._V1_SX300.jpg",
+            "rating": "6.6",
+            "overview": "A decade after An Inconvenient Truth brought climate change into the heart of popular culture comes the riveting and rousing follow-up that shows just how close we are to a real energy revolution. Vice President Al Gore continues his tireless fight, traveling around the world training an army of climate champions and influencing international climate policy. Cameras follow him behind the scenes—in moments private and public, funny and poignant—as he pursues the empowering notion that while the stakes have never been higher, the perils of climate change can be overcome with human ingenuity and passion.",
+            "genre": "Documentary",
+            "productionCompanies": "Participant Media,Actual Films"
+        },
+        {
+            "id": "tt4877122",
+            "title": "The Emoji Movie",
+            "releaseDate": "2017-07-28",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTkzMzM3OTM2Ml5BMl5BanBnXkFtZTgwMDM0NDU3MjI@._V1_SX300.jpg",
+            "rating": "3.4",
+            "overview": "Gene, a multi-expressional emoji, sets out on a journey to become a normal emoji.",
+            "genre": "Comedy,Family,Animation",
+            "productionCompanies": "Columbia Pictures,Sony Pictures Animation"
+        },
+        {
+            "id": "tt5390504",
+            "title": "Detroit",
+            "releaseDate": "2017-07-28",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTg4MDk4MTUxMF5BMl5BanBnXkFtZTgwNDE5NjA5MjI@._V1_SX300.jpg",
+            "rating": "7.3",
+            "overview": "A police raid in Detroit in 1967 results in one of the largest citizens' uprisings in the history of the United States.",
+            "genre": "Thriller,Crime,Drama,History",
+            "productionCompanies": "Metro-Goldwyn-Mayer (MGM),Annapurna Pictures,First Light Production"
+        },
+        {
+            "id": "tt5742932",
+            "title": "Thick Lashes of Lauri Mäntyvaara",
+            "releaseDate": "2017-07-28",
+            "poster": "https://m.media-amazon.com/images/M/MV5BYTY0MmZiYmEtOGJjMC00NzA3LWJkZTUtOGE0Nzg0Zjk1NDRkXkEyXkFqcGdeQXVyMTIxMzMzMzE@._V1_SX300.jpg",
+            "rating": "5.7",
+            "overview": "",
+            "genre": "Romance,Comedy",
+            "productionCompanies": "Elokuvayhtiö Oy Aamu"
+        },
+        {
+            "id": "tt5805752",
+            "title": "Brigsby Bear",
+            "releaseDate": "2017-07-27",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTgyODgyMTYzNV5BMl5BanBnXkFtZTgwMTk5NzY2MjI@._V1_SX300.jpg",
+            "rating": "7.3",
+            "overview": "Brigsby Bear Adventures is a children's TV show produced for an audience of one: James. When the show abruptly ends, James's life changes forever, and he sets out to finish the story himself.",
+            "genre": "Comedy,Drama",
+            "productionCompanies": "Sony Pictures Classics,3311 Productions,Lord Miller,Kablamo!"
+        },
+        {
+            "id": "tt5715410",
+            "title": "The Son of Bigfoot",
+            "releaseDate": "2017-07-27",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNWE4ZGU0ZjItZjgwMi00YzEyLTkzMWMtZDkwMjRhNDU5MzBjL2ltYWdlXkEyXkFqcGdeQXVyNjQzMzk3MTY@._V1_SX300.jpg",
+            "rating": "6.1",
+            "overview": "Teenage outsider Adam sets out on an epic and daring quest to uncover the mystery behind his long-lost dad, only to find out that he is none other than the legendary Bigfoot! He has been hiding deep in the forest for years to protect himself and his family from HairCo., a giant corporation eager to run scientific experiments with his special DNA. As father and son start making up for lost time after the boy's initial disbelief, Adam soon discovers that he too is gifted with superpowers beyond his imagination. But little do they know, HairCo. is on their tail as Adam's traces have led them to Bigfoot!",
+            "genre": "Animation,Comedy",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt2406566",
+            "title": "Atomic Blonde",
+            "releaseDate": "2017-07-26",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjM5NDYzMzg5N15BMl5BanBnXkFtZTgwOTM2NDU1MjI@._V1_SX300.jpg",
+            "rating": "6.7",
+            "overview": "An undercover MI6 agent is sent to Berlin during the Cold War to investigate the murder of a fellow agent and recover a missing list of double agents.",
+            "genre": "Action,Thriller",
+            "productionCompanies": "Denver and Delilah Productions,Film i Väst,Focus Features,87Eleven,Closed on Mondays Entertainment"
+        },
+        {
+            "id": "tt4464394",
+            "title": "The Gracefield Incident",
+            "releaseDate": "2017-07-21",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzg1MGE5YzUtMmRmOC00MWVmLWE3M2MtNTg2YmI1NzZmNTliXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SX300.jpg",
+            "rating": "4.2",
+            "overview": "On August 16, 2013, the Supreme Court mandated the CIA to declassify files that had been kept secret for the past 75 years. Visual records of documented paranormal events were released to the public. The following incident took place in Gracefield, Quebec.",
+            "genre": "Horror,Science Fiction,Action",
+            "productionCompanies": ""
+        },
+        {
+            "id": "tt3564472",
+            "title": "Girls Trip",
+            "releaseDate": "2017-07-21",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNTEzODUwMV5BMl5BanBnXkFtZTgwNjE5NjA5MjI@._V1_SX300.jpg",
+            "rating": "6.2",
+            "overview": "Four girlfriends take a trip to New Orleans for an annual festival and, along the way, rediscover their wild sides and strengthen the bonds of sisterhood.",
+            "genre": "Comedy",
+            "productionCompanies": "Universal Pictures,Will Packer Productions"
+        },
+        {
+            "id": "tt5737862",
+            "title": "Landline",
+            "releaseDate": "2017-07-21",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjQzODc2MzQ4MV5BMl5BanBnXkFtZTgwNTU4MjU1MjI@._V1_SX300.jpg",
+            "rating": "6.4",
+            "overview": "A teenager living with her sister and parents in Manhattan during the 1990s discovers that her father is having an affair.",
+            "genre": "Comedy",
+            "productionCompanies": "Magnolia Pictures"
+        },
+        {
+            "id": "tt5884234",
+            "title": "First Kill",
+            "releaseDate": "2017-07-21",
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDE1YjU5YzYtYTdmYi00NjkzLThiZTItMTQ5NzMxZTNiMzdiXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg",
+            "rating": "5",
+            "overview": "A police chief tries to solve a kidnapping that involves a bank robber holding a young boy hostage.",
+            "genre": "Action,Thriller",
+            "productionCompanies": "Ingenious Media,Brookstreet Pictures,The Fyzz Facility,Emmett Furla Oasis Films (EFO Films),River Bay Films,Kirk Shaw Productions,Aboretum Productions"
+        },
+        {
+            "id": "tt5117876",
+            "title": "Descendants 2",
+            "releaseDate": "2017-07-21",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjI5MTA4MTk2N15BMl5BanBnXkFtZTgwNjY2NDUwMjI@._V1_SX300.jpg",
+            "rating": "6.3",
+            "overview": "When the pressure to be royal becomes too much for Mal, she returns to the Isle of the Lost where her archenemy Uma, Ursula's daughter, has taken her spot as self-proclaimed queen.",
+            "genre": "TV Movie,Family,Action,Comedy,Music,Adventure",
+            "productionCompanies": "Walt Disney Television"
+        }
+    ]
+}
