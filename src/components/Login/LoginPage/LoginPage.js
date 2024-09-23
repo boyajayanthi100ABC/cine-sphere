@@ -15,7 +15,7 @@ const darkTheme = createTheme({
 
 
 
-const Login = ({ setIsAuthenticated }) => {
+const Login = () => {
     const errRef = useRef();
     const [user, setUser] = useState('');
     const [pwd, setPwd] = useState('');
@@ -31,7 +31,7 @@ const Login = ({ setIsAuthenticated }) => {
 
           Cookie.set("jwt_token", applicationConfiguration.JWT_Token, {expires: 1});
 
-          setIsAuthenticated(true); 
+         
           setUser('');
           setPwd('');
         } else {

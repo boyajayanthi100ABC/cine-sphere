@@ -47,7 +47,7 @@
   background-color: #39445a;
   color: white;
   /* padding-top: 130px; */
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 @media(max-width: 700px){
@@ -62,19 +62,25 @@
 }
 
 .pageTitle{
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
   font-family: "Monsterrat", sans-serif;
   font-size: 3vw;
-  padding: 4px;
-  border-radius: 50px;
   color: white;
 }
 
 
 @media (max-width: 1000px){
   .pageTitle{
-    font-size: 6.4vw;
+    /* font-size: 6.4vw; */
   }
+}
+
+
+.css-1oqqzyl-MuiContainer-root {
+  width: 100%;
+  /* margin-left: auto; */
+  box-sizing: border-box;
+  /* margin-right: auto; */
+  display: contents;
+  padding-left: 16px;
+  padding-right: 16px;
 }

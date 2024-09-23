@@ -173,7 +173,7 @@ const Header = ({ setIsAuthenticated }) => {
   return (
     <div className="header-container">
       <div className="header">
-        <div></div>
+        {/* <div></div> */}
         <span onClick={() => window.scroll(0, 0)}>
           🎬 Entertainment Hub 🎥
         </span>
