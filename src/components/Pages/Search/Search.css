@@ -1,0 +1,11 @@
+.search-tab{
+    width: 50%; 
+    margin: 20px !important;
+}
+
+@media (max-width: 768px){
+    .search-tab {
+        width: 40%;
+        margin: 0px !important;
+    }
+}

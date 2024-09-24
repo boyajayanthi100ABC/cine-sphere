@@ -68,7 +68,7 @@ export default function ContetnModal({ children, id, type }) {
     }, []);
 
     return (
-        <div>
+        <div className="card">
             <Button onClick={handleOpen} className="media">{children}</Button>
             <Modal
                 aria-labelledby="transition-modal-title"

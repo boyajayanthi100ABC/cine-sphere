@@ -20,17 +20,13 @@
     transform: scale(1.1);
 }
 
-@media (max-width: 550px){
+/* @media (max-width: 550px){
     .media {
         width: 46%;
     }
-}
+} */
 
-.poster{
-    border-radius: 10px;
-    height: 20vw;
-    width: 100%;
-}
+
 
 .title{
     width: 100%;
@@ -54,4 +50,24 @@
 .content-card{
 height: 10vw;
 margin-top: 1vw;
+}
+
+
+@media (max-width: 768px){
+    .subTitle {
+        display: none;
+      }
+
+      .content-card{
+        height: 100px !important;
+        margin-top: 0 !important;
+        }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .subTitle {
+        display: none;
+      }
 }

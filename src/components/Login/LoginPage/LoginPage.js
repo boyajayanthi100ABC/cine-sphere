@@ -3,6 +3,7 @@ import { createTheme, ThemeProvider, TextField, Button, Typography, Box, Snackba
 // import axios from './api/axios';
 import applicationConfiguration from '../../../components/assets/json/application-configuration.json'
 import Cookie from 'js-cookie';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 const darkTheme = createTheme({
     palette: {
@@ -21,6 +22,7 @@ const Login = () => {
     const [pwd, setPwd] = useState('');
     const [errMsg, setErrMsg] = useState('');
     const [open, setOpen] = useState(false);
+    const navigate = useNavigate();
   
     const handleSubmit = async (e) => {
       e.preventDefault();
@@ -30,8 +32,8 @@ const Login = () => {
         if (user === validCredentials.username && pwd === validCredentials.password) {
 
           Cookie.set("jwt_token", applicationConfiguration.JWT_Token, {expires: 1});
+          navigate("/trending");
 
-         
           setUser('');
           setPwd('');
         } else {

@@ -10,10 +10,16 @@
     border-radius: 10px !important;
     position: relative !important;
     font-family: "Monsterrat", sans-serif !important;
-    height: auto;
-    width: 15vw !important;
+    height: 100%;
+    /* height: 15%; */
+    width: 100% !important;
 }
 
+.poster {
+  border-radius: 10px;
+  height: 80%;
+  width: 100%;
+}
 
 .content-style{
 position: absolute;
@@ -25,7 +31,7 @@ position: absolute;
   border: 2px solid #000;
   /* p: 4 */
   width: 90%;
-  height: 80%;
+  height: 60%;
   background-color: #39445a;
   border: 1px solid #282c34;
   border-radius: 10;
@@ -111,7 +117,14 @@ position: absolute;
   display: none;
 }
 
-@media (min-width: 835px) {
+.card{
+  width: 30%;
+    height: auto;
+    margin-bottom: 50px;
+    max-width: 400px;
+}
+
+/* @media (min-width: 835px) {
   .ContentModal__landscape {
     display: none;
   }
@@ -136,6 +149,57 @@ position: absolute;
   .ContentModal__description {
     font-size: 18px;
   }
+} */
+
+@media (max-width: 768px) {
+  .card {
+      width: 80%;
+      height: auto;
+      margin-bottom: 50px;
+      max-width: 270px;
+    }
+
+  .media {
+    font-family: "Monsterrat", sans-serif !important;
+    height: 100%;
+    /* height: 15%; */
+    width: 100% !important;
+  }
+
+  .poster {
+    border-radius: 10px;
+    height: 80%;
+    width: 100%;
+  }
+
+  .ContentModal__title {
+    height: 12%;
+    font-size: 20px;
+  }
+
 }
 
 
+@media (min-width: 769px) and (max-width: 1023px){
+
+  .card{
+    width: 80%;
+    height: auto;
+    margin-bottom: 50px;
+    max-width: 300px;
+  }
+
+  .media {
+    font-family: "Monsterrat", sans-serif !important;
+    height: 100%;
+    /* height: 15%; */
+    width: 100% !important;
+  }
+
+  .poster {
+    border-radius: 10px;
+    height: 80%;
+    width: 100%;
+  }
+
+} 

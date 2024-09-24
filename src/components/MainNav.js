@@ -34,7 +34,7 @@ export default function SimpleBottomNavigation() {
   // localStorage.setItem('currentPage', value);
 
     useEffect(() => {
-        if(value === 0) navigate("/");
+        if(value === 0) navigate("/trending");
         else if(value === 1) navigate("/movies");
         else if(value === 2) navigate("/series");
         else if(value === 3) navigate("/search");

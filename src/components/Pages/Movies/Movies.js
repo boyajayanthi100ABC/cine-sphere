@@ -95,7 +95,7 @@ const Movies = () => {
 
  
     return(
-        <div>
+        <div className="page-container">
             <span className="pageTitle"> Movies </span>
             <Genres type="movie" 
                 selectedGenres={selectedGenres}

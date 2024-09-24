@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import axios from "axios";
 import SingleContent from "../../SingleContent/SingleContent";
 import CustomPagination from "../../Pagination/CustomPagination";
+import './Search.css';
 
 
 const Search = () => {
@@ -13,6 +14,9 @@ const Search = () => {
     const [videosData, setVideosData] = useState([]);
     const [content, setContent] = useState();
     const [numOfPages, setNumOfPages] = useState();
+    const [isSearchTriggered, setIsSearchTriggered] = useState(false);
+
+
 
     const darkTheme = createTheme({
         palette: {
@@ -57,6 +61,8 @@ const Search = () => {
                 }));
                 setNumOfPages(Math.ceil((response.data.totalMovies)/10));
                 setVideosData(updatedData);
+                setIsSearchTriggered(true);
+                // setSearchText("");
                 console.log("videos Data", videosData);
                 console.log("videos Data1", updatedData)
                 // setApiStatus('success');
@@ -96,9 +102,9 @@ const Search = () => {
     }, [type, page]);
 
     return (
-        <div>
+        <div className="page-container">
             <ThemeProvider theme={darkTheme}>
-                <div style={{ display: "flex", margin: '15px 0' }}>
+                <div style={{ display: "flex", margin: '10px 15px 0 15px' }}>
                     <TextField style={{ flex: 1 }} className="searchBox" label="search" variant="filled"
                         onChange={(e) => setSearchText(e.target.value)} onKeyDown={handleKeyPress}
                     />
@@ -106,14 +112,17 @@ const Search = () => {
                         <SearchIcon />
                     </Button>
                 </div>
+                <div style={{display: "flex", flexDirection: "row", justifyContent: "center", margin: '5px 0px 0 15px' }}>
                 <Tabs value={type} indicatorColor='primary' textColor='primary'
                     onChange={(event, newValue) => {
                         setType(newValue);
+                        setIsSearchTriggered(false);
                         setPage(1);
                     }}>
-                    <Tab style={{ width: "50%" }} label="Search Movies" />
+                    <Tab className="search-tab" label="Search Movies" />
                     <Tab style={{ width: "50%" }} label="Search TV Series" />
                 </Tabs>
+                </div>
             </ThemeProvider>
             {/* <div> */}
             {/* <span className="pageTitle tending-styles">Trending</span> */}
@@ -134,9 +143,12 @@ const Search = () => {
                             type={video.type} />
                     ))
                 }
-                {searchText &&
-          !videosData &&
-          (type ? <h2>No Series Found</h2> : <h2>No Movies Found</h2>)}
+
+
+{/* <p> {{ isSearchTriggered }} </p> */}
+                { isSearchTriggered === true && searchText &&
+          videosData.length === 0 &&
+          (type === 0 ? <h2>No Movies Found</h2> : <h2>No Series Found</h2>)}
 
             </div>
             {numOfPages > 1 && 

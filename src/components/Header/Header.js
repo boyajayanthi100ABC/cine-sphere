@@ -107,6 +107,8 @@ import { useState, useEffect } from "react";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { useNavigate } from "react-router-dom";
 import './Header.css';
+import Cookie from 'js-cookie';
+import Cookies from "js-cookie";
 
 const Header = ({ setIsAuthenticated }) => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -143,8 +145,10 @@ const Header = ({ setIsAuthenticated }) => {
 
   // Signout handler
   const handleSignOut = () => {
-    setIsAuthenticated(false);
-    navigate('/'); // Redirect to the login page
+    // setIsAuthenticated(false);
+     Cookie.remove('jwt_token');
+     localStorage.removeItem('currentPage');
+     navigate('/'); // Redirect to the login page
   };
 
   // Handle file upload for profile picture
@@ -170,6 +174,30 @@ const Header = ({ setIsAuthenticated }) => {
     setIsProfileChange(true);
   };
 
+
+  const renderAvatar = () => {
+    const windowWidth = window.innerWidth;
+    const windowHeight = window.innerHeight;
+
+    let width = 60;
+    if(windowWidth <= 768){
+      width = 40;
+    }else if(windowWidth <= 1023){
+      width = 50;
+    }
+
+
+    return (
+      <Avatar
+              alt="Profile Picture"
+              src={profilePic}
+              sx={{ width: width, height: width, marginTop: '5px'}} // Set width and height for the avatar
+              // className="avatar-img"
+            />
+    )
+  }
+
+
   return (
     <div className="header-container">
       <div className="header">
@@ -188,11 +216,7 @@ const Header = ({ setIsAuthenticated }) => {
           sx={{ color: 'black' }}
         >
           {profilePic ? (
-            <Avatar
-              alt="Profile Picture"
-              src={profilePic}
-              sx={{ width: 40, height: 40 }} // Set width and height for the avatar
-            />
+            renderAvatar()
           ) : (
             <AccountCircleIcon fontSize="large" />
           )}

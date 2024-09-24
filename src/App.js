@@ -13,6 +13,7 @@ import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute';
 function App() {
   
   return (
+    <div className="app">
     <BrowserRouter>
     {/* {isAuthenticated && <Header setIsAuthenticated={setIsAuthenticated}/>} */}
    
@@ -20,17 +21,18 @@ function App() {
       {/* {isAuthenticated? ( */}
       {/* <Container>  */}
         <Routes>
-          <Route path="/login" element={<Login />} exact />
-          <Route path="/" element={<ProtectedRoute element={Trending } />} exact/>
-          <Route path="/movies" element={<ProtectedRoute element={Movies} />} />
-          <Route  path="/series" element={<ProtectedRoute element={Series} />} />
-          <Route  path="/search" element={<ProtectedRoute element={Search} />} />
+          <Route path="/" element={<Login />} exact />
+          <Route path="/trending" element={<ProtectedRoute element={Trending } exact/>} />
+          <Route path="/movies" element={<ProtectedRoute element={Movies} exact/>} />
+          <Route  path="/series" element={<ProtectedRoute element={Series} exact/>} />
+          <Route  path="/search" element={<ProtectedRoute element={Search} exact/>} />
         </Routes>
       {/* </Container> */}
     {/* ) : (<Login setIsAuthenticated={setIsAuthenticated} />) */}
   {/* } */}
     {/* {isAuthenticated && <SimpleBottomNavigation />}  */}
     </ BrowserRouter>
+    </div>
   );
 }
 

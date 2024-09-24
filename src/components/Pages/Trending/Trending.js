@@ -68,7 +68,7 @@ const Trending = () => {
   }, [page]);
 
   return (
-    <div>
+    <div className="page-container">
       <span className="pageTitle tending-styles">Trending</span>
       {/* Render videosData here */}
       <div className="trending">

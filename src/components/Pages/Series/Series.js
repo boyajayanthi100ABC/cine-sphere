@@ -86,7 +86,7 @@ const Series = () => {
   }, []);
 
     return(
-        <div>
+        <div className="page-container">
             <span className="pageTitle"> Series </span>
             <Genres type="tv" 
                 selectedGenres={selectedGenres}
