@@ -13,10 +13,6 @@ const Movies = () => {
 
   const [page, setPage] = useState(1);
 
-  // const [page, setPage] = useState(() => {
-  //   return parseInt(localStorage.getItem('currentPage') || '0', 10); // Default to page 1 if not set
-  // });
-
   const [content, setContent] = useState([]);
   const [numOfPages, setNumofPages] = useState();
   const [videosData, setVideosData] = useState([]);
@@ -24,10 +20,8 @@ const Movies = () => {
   const [selectedGenres, setSelectedgenres] = useState([]);
 
   const [genres, setGenres] = useState();
-  // const [genres, setGenres] = useState(applicationConfiguration.Genres);
 
   const genreforURL = useGenre(selectedGenres);
-  console.log("SelectedGenres1", selectedGenres);
 
 
   const fetchGenres = async () => {
@@ -37,21 +31,16 @@ const Movies = () => {
       if (response.status === 200) {
         setGenres(response.data);  
       } else {
-        console.error("Failed to fetch genres");
       }
     } catch (error) {
-      console.error("Error fetching genres:", error);
+
     }
   };
 
 
   const fetchMovies = async (pageNumber = 1) => {
     try {
-      // const response = await axios.get(`https://apis.ccbp.in/videos/all?page=${page}`, options);
       const response = await axios.get(`https://movies-app-backend-eight.vercel.app/movies/?genre=${genreforURL}&limit=10&offset=${(pageNumber - 1) * 10}`);
-      // const response = await axios.get(`https://movies-app-backend-eight.vercel.app/movies/?genre=${genreforURL}`);
-      // limit : how many items should we ShowChart;
-      // offset: from which Number, like we should ShowChart. Ex: 20, 30, 10 
 
       if (response.status === 200) {  
         const updatedData = response.data.moviesList.map(eachItem => ({
@@ -84,7 +73,6 @@ const Movies = () => {
   }
 
   useEffect(() => {
-    // fetchGenres();
     fetchMovies();
   }, [selectedGenres]);
 

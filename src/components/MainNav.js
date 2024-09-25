@@ -13,16 +13,10 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function SimpleBottomNavigation() {
-  // const [value, setValue] = React.useState(0);
 
   const [value, setValue] = React.useState(() => {
     return parseInt(localStorage.getItem('currentPage') || '0', 10);
   });
-
-  // const [value, setValue] = React.useState(() => {
-  //   // Get the current page from local storage or default to 0
-  //   return parseInt(localStorage.getItem('currentPage') || '0', 10);
-  // });
 
   const navigate = useNavigate();
 
@@ -30,8 +24,6 @@ export default function SimpleBottomNavigation() {
   useEffect(() => {
     localStorage.setItem('currentPage', value);
   }, [value]);
-
-  // localStorage.setItem('currentPage', value);
 
     useEffect(() => {
         if(value === 0) navigate("/trending");
@@ -55,7 +47,6 @@ export default function SimpleBottomNavigation() {
         }}
       >
         <BottomNavigationAction style={{color: "White", boxShadow: value === 0 ? "0px 1px 8px rgba(255,255,255,0.5)" : "none", }} label="Trending" icon={<WhatshotIcon />} />
-        {/* <BottomNavigationAction label="Recents" icon={<RestoreIcon />} /> */}
         <BottomNavigationAction style={{color: "White", boxShadow: value === 1 ? "0px 1px 8px rgba(255,255,255,0.5)" : "none", }} label="Movies" icon={<MovieIcon />} />
         <BottomNavigationAction style={{color: "White", boxShadow: value === 2 ? "0px 1px 8px rgba(255,255,255,0.5)" : "none", }}label="TV Series" icon={<TvIcon />} />
         <BottomNavigationAction style={{color: "White", boxShadow: value === 3 ? "0px 1px 8px rgba(255,255,255,0.5)" : "none", }}label="Search" icon={<SearchIcon />} />

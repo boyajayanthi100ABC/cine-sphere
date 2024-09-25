@@ -28,24 +28,13 @@ const Series = () => {
       if (response.status === 200) {
         setGenres(response.data);  
       } else {
-        console.error("Failed to fetch genres");
       }
     } catch (error) {
-      console.error("Error fetching genres:", error);
     }
   };
 
   const fetchSeries = async (pageNumber = 1) => {
-    const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhaHVsIiwicm9sZSI6IlBSSU1FX1VTRVIiLCJpYXQiOjE2MTk2Mjg2MTN9.nZDlFsnSWArLKKeF0QbmdVfLgzUbx1BGJsqa2kc_21Y";
-    // const jwtToken = ${process.env.REACT_APP_API_KEY}
-    const options = {
-      headers: {
-        Authorization: `Bearer ${jwtToken}`,
-      },
-    };
- 
     try {
-      // const response = await axios.get(`https://movies-app-backend-eight.vercel.app/movies/?limit=10&offset=${(pageNumber - 1) * 10}`);
       const response = await axios.get(`https://movies-app-backend-eight.vercel.app/tv-series/?genre=${genreforURL}&limit=10&offset=${(pageNumber - 1) * 10}`);
 
       if (response.status === 200) {

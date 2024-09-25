@@ -15,17 +15,9 @@
 
 
 .media:hover{
-    /* background-color: white !important; */
     color: black;
     transform: scale(1.1);
 }
-
-/* @media (max-width: 550px){
-    .media {
-        width: 46%;
-    }
-} */
-
 
 
 .title{
@@ -38,7 +30,7 @@
 
 .subTitle{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 3px;
     padding: 0 2px;
     padding-bottom: 3px;
@@ -48,8 +40,7 @@
 }
 
 .content-card{
-height: 10vw;
-margin-top: 1vw;
+height: 200px;
 }
 
 
@@ -70,4 +61,9 @@ margin-top: 1vw;
     .subTitle {
         display: none;
       }
+
+      .content-card{
+        height: 100px !important;
+        margin-top: 0 !important;
+        }
 }

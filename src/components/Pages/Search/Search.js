@@ -28,9 +28,6 @@ const Search = () => {
     });
 
     const fetchSearch = async (searchText,pageNumber = 1) => {
-        // if (searchText){
-        //     searchText = searchText.toLowerCase();
-        // }
 
         let typeVar; 
         let response;
@@ -62,16 +59,10 @@ const Search = () => {
                 setNumOfPages(Math.ceil((response.data.totalMovies)/10));
                 setVideosData(updatedData);
                 setIsSearchTriggered(true);
-                // setSearchText("");
-                console.log("videos Data", videosData);
-                console.log("videos Data1", updatedData)
-                // setApiStatus('success');
             }
 
         }
         catch (error) {
-            // console.log("videos Data4", response.data.);
-            console.log(error.error);
         }
 
     };
@@ -91,14 +82,9 @@ const Search = () => {
         }
     };
 
-    // useEffect(() =>{
-    //     fetchSearch("");
-    // },[])
 
     useEffect(() => {
-        // Trigger fetch when the tab is changed or when the page number changes
         fetchSearch(null, page);
-        console.log("videos Data2", videosData);
     }, [type, page]);
 
     return (
@@ -124,9 +110,6 @@ const Search = () => {
                 </Tabs>
                 </div>
             </ThemeProvider>
-            {/* <div> */}
-            {/* <span className="pageTitle tending-styles">Trending</span> */}
-            {/* Render videosData here */}
             <div className="trending">
                 {
                     videosData && videosData.map((video) => (
@@ -145,7 +128,6 @@ const Search = () => {
                 }
 
 
-{/* <p> {{ isSearchTriggered }} </p> */}
                 { isSearchTriggered === true && searchText &&
           videosData.length === 0 &&
           (type === 0 ? <h2>No Movies Found</h2> : <h2>No Series Found</h2>)}
@@ -154,7 +136,6 @@ const Search = () => {
             {numOfPages > 1 && 
       <CustomPagination setPage={setPage} onHandleChange={onhandleChange} numOfPages={numOfPages} />}
         </div>
-        // </div>
     )
 }
 export default Search  

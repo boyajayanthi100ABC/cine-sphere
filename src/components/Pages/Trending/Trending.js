@@ -1,18 +1,3 @@
-// const Trending = () => {
-
-//     const fetchTrending = async () => {
-//         const {data} = await axios.get(``)
-//     }
-
-//     return(
-//         <div>
-//             <span className="pageTitle tending-styles"> Trending </span>
-//         </div>
-//     )
-// }
-// export default Trending 
-
-
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import SingleContent from '../../SingleContent/SingleContent';
@@ -29,7 +14,6 @@ const Trending = () => {
   const fetchTrending = async (pageNumber = 1) => { 
 
     try {
-      // const response = await axios.get(`https://apis.ccbp.in/videos/all?page=${page}`, options);
       const response = await axios.get(`https://movies-app-backend-eight.vercel.app/movies/?limit=10&offset=${(pageNumber - 1) * 10}`);
 
       if (response.status === 200) {  
@@ -45,7 +29,6 @@ const Trending = () => {
           title: eachItem.title,
           type: eachItem.type,
         }));
-        // setNumofPages(60);
         setNumofPages(Math.ceil((response.data.totalMovies)/10));
         setVideosData(updatedData);
         setApiStatus('success');
@@ -62,7 +45,6 @@ const Trending = () => {
     fetchTrending(pageNumber);
   }
 
-  // setContent(response.result);
   useEffect(() => {
     fetchTrending();
   }, [page]);
@@ -70,7 +52,6 @@ const Trending = () => {
   return (
     <div className="page-container">
       <span className="pageTitle tending-styles">Trending</span>
-      {/* Render videosData here */}
       <div className="trending">
         {
             videosData && videosData.map((video) => (

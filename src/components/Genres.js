@@ -9,19 +9,12 @@ const Genres = ({
     genres,
     setGenres, 
     setPage}) => {
-        // const genresData = applicationConfiguration.GenresN;
-        console.log("all genres", selectedGenres,
-          genres);
 
 
         const handleAdd = (genre) => {
-          console.log("genre ids1", genre);
             setSelectedGenres([...selectedGenres, genre]);
             const selGenres = genres.filter((g) => g.id !== genre.id);
             setGenres(selGenres);
-            console.log("genre ids2", selectedGenres);
-            console.log("genre ids3", genres);
-            // console.log("genre ids3", selGenres);
             setPage(1);
         }
 
@@ -33,11 +26,11 @@ const Genres = ({
             setPage(1);
           };
 
-  useEffect(() => {
-    // setGenres(genres) ;
-    console.log("Selected Genres: ", selectedGenres);
-    console.log("Remaining Genres: ", genres);
-  }, [genres, selectedGenres])
+  // useEffect(() => {
+  //   // setGenres(genres) ;
+  //   console.log("Selected Genres: ", selectedGenres);
+  //   console.log("Remaining Genres: ", genres);
+  // }, [genres, selectedGenres])
 
   return <div style={{
     padding: '6px 0',

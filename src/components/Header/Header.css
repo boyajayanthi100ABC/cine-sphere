@@ -1,17 +1,14 @@
 .header{
     width: 100%;
     cursor: pointer;
-    /* position: fixed; */
     display: flex;
     justify-content: space-evenly;
-    text-transform: uppercase;
     background-color: #39445a;
     font-family: "Monsterrat", sans-serif;
-    font-size: 5vw;
+    font-size: 4vw;
     padding-bottom: 15px;
     box-shadow: 0px 1px 5px black;
     color: white;
-    /* z-index: 100;   */
     align-items: center;  
 }
  
@@ -22,15 +19,12 @@
   margin-top: 5px;
 }
 
+.gif-styles{
+  height: 50px;
+    width: 50px;
+    border-radius: 15px;
+}
 
-/* @media (max-width: 1000px){
-    .header{
-        padding-top: 15px;
-        font-size: 6.4vw;
-    }
-} */
-
-/* Phone- View  */
 @media (max-width: 768px){
   .header{
     padding: 20px 10px 20px 10px;
@@ -39,31 +33,16 @@
   }
 }
 
-
-
-
-
 .header-container {
   display: flex;
   justify-content: space-between;
   z-index: 2;
   width: 100%;
   position: fixed;
-
-    /* align-items: center; */
-    /* padding: 10px; */
-    /* padding-top: 50px !important; */
   }
-  
-  /* .header {
-    font-size: 24px;
-    cursor: pointer;
-  } */
+
   
   .account-icon {
-    /* position: absolute;
-    top: 10px;
-    right: 20px; */
     font-size: 4vw !important;
   }
 

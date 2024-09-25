@@ -7,13 +7,11 @@ import './Protectedroute.css';
 
 const ProtectedRoute = props => {
     const Component = props.element;
-    console.log("Componenet", Component)
-
+  
   const token = Cookie.get('jwt_token');
   if (token === undefined) {
     return <Navigate to="/" />;
   }
-//   return <Route {...props} />
 return <div className="protected-route-div"> 
 <Header />
 <Component />

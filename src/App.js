@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter, Switch,Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Switch,Route, Routes, useLocation } from 'react-router-dom';
 import Container from '@mui/material/Container';
 import Trending from './components/Pages/Trending/Trending';
 import Movies from './components/Pages/Movies/Movies';
@@ -10,16 +10,12 @@ import Login from './components/Login/LoginPage/LoginPage';
 import { useState } from 'react';
 import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute';
 
+
 function App() {
-  
+
   return (
     <div className="app">
     <BrowserRouter>
-    {/* {isAuthenticated && <Header setIsAuthenticated={setIsAuthenticated}/>} */}
-   
-      {/* <Login /> */}
-      {/* {isAuthenticated? ( */}
-      {/* <Container>  */}
         <Routes>
           <Route path="/" element={<Login />} exact />
           <Route path="/trending" element={<ProtectedRoute element={Trending } exact/>} />
@@ -27,12 +23,8 @@ function App() {
           <Route  path="/series" element={<ProtectedRoute element={Series} exact/>} />
           <Route  path="/search" element={<ProtectedRoute element={Search} exact/>} />
         </Routes>
-      {/* </Container> */}
-    {/* ) : (<Login setIsAuthenticated={setIsAuthenticated} />) */}
-  {/* } */}
-    {/* {isAuthenticated && <SimpleBottomNavigation />}  */}
     </ BrowserRouter>
-    </div>
+     </div>
   );
 }
 
